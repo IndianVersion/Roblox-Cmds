@@ -1,1 +1,3 @@
-# Shared-Repo
+#Shared-repo
+
+**NON-COMMERCIAL USE-ONLY**
