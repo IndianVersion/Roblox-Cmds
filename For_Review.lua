@@ -1,6 +1,3 @@
-#This is special (held-for-review only)
-
-```LUA
 --// @Author: Sqowly
 --// began writing: 12/28/2020 <-- bad year btw
 
@@ -190,4 +187,3 @@ mergenodes.OnClientEvent:Connect(function()
 		return;
 	end)
 end)
-```
