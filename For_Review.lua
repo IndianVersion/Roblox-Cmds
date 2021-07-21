@@ -68,8 +68,7 @@ local Owner_Users={
 	[3]="KillerStormz",
 	[4]="Disgusting1337"
 }
-
-local function reload()
+function reload()
 	script.Parent.Parent.SpliceCommands.Enabled = false
 	wait(1.5)
 	script.Parent.Parent.SpliceCommands.Enabled = true
@@ -183,7 +182,6 @@ mergenodes.OnClientEvent:Connect(function()
 	MergenodesUI.Enabled = true
 	merge.MouseButton1Click:Connect(function()
 		local form = game.ReplicatedStorage.form
-		form:FireServer()
-		return;
+		return form:FireServer();
 	end)
 end)
